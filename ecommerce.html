@@ -6,7 +6,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="jspratic.css">
+  <link rel="stylesheet" href="ecommerce.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
   <style>
   #navi{
@@ -70,10 +71,10 @@
     </div>
     <!-- HEADER ENDS -->
     <!-- Middle Part Strat -->
-    <div class="secondbody">
+    <div class="secondbody" >
       <div class="h1 text-center"><span id="spans">A</span>bout Us</div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="slide-right">
           <div class="h3 my-2 p-3">What WE DO</div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim numquam minus accusantium autem reiciendis
             earum delectus doloribus vel expedita nisi, perspiciatis voluptatum magnam, possimus deleniti consectetur
@@ -83,17 +84,17 @@
             laborum corporis! Laboriosam?
           </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6"  data-aos="slide-left" >
           <img src="book.svg" width="100%"
             height="auto" alt="">
         </div>
       </div>
       <div class="row ">
-        <div class="col-md-6   order-2 mt-5">
+        <div class="col-md-6 order-2 mt-5" data-aos="slide-right">
           <img src="rocket.svg" width="100%" height="auto"
             alt="">
         </div>
-        <div class="col-md-6   order-1  order-md-3">
+        <div class="col-md-6   order-1  order-md-3" data-aos="slide-left">
           <div class="h3 mt-5 p-3">Company</div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim numquam minus accusantium autem reiciendis
             earum delectus doloribus vel expedita nisi, perspiciatis voluptatum magnam, possimus deleniti consectetur
@@ -107,7 +108,7 @@
     </div>
     <!--MIDDLE PART ENDS  -->
     <!-- THIRD SECTIONS -->
-    <div class="services mt-5">
+    <div class="services mt-5" data-aos="fade-in">
       <div class="bgimg ">
         <div class="h1 text-center text-light py-4">Join Us</div>
         <p class="text-center text-light m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eveniet!</p>
@@ -119,10 +120,10 @@
           <button class="btn btn-light text-center"> Read More </button>
         </div>
       </div>
-      <div class="h1 title text-center mt-5"><span id="spans">O</span>ur Partners</div>
+      <div class="h1 title text-center mt-5" data-aos="flip-down" ><span id="spans">O</span>ur Partners</div>
       <div class="row mt-5 bg-light ">
         <div class="col-md-4">
-          <div class="card m-3 shadow-lg  text-light p-3" id="car1">
+          <div class="card m-3 shadow-lg text-light p-3" data-aos="flip-down" id="car1">
 
             <h3 class="text-center">Title</h3>
             <p class="p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, adipisci!
@@ -135,7 +136,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card shadow-lg m-3 p-3">
+          <div class="card shadow-lg m-3 p-3" data-aos="flip-down">
 
             <h3 class="text-center">Title</h3>
             <p class="p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, adipisci!
@@ -148,7 +149,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card shadow-lg m-3  text-light p-3" id="car1">
+          <div class="card shadow-lg m-3  text-light p-3"  data-aos="flip-down" id="car1">
             <h3 class="text-center">Title</h3>
             <p class="p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, adipisci!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur esse veritatis labore odio accusantium
@@ -162,7 +163,7 @@
       </div>
     </div>
     <!-- THIRD SECTIONS ENDS -->
-    <div class="partners" id="serv">
+    <div class="partners" id="serv" data-aos="zoom-out-down" >
       <div class="h1 text-center mt-4"><span id="spans">O</span>ur Services</div>
       <div class="row ">
         <div class="col-md-4 my-auto">
@@ -199,7 +200,7 @@
         </div>
       </div>
     </div>
-    <footer class="mt-5 text-light" id="foter">
+    <footer class="mt-5 text-light" data-aos="slide-up" id="foter">
       <div class="row p-4">
           <div class="col-md-3">
               <div class="border1 m-3">
@@ -251,5 +252,10 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>
