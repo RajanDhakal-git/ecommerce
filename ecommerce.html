@@ -51,7 +51,7 @@
     <div class="header">
       <div class="row">
         <div class="col-md-6 ">
-          <div class="h1 heading  px-5 text-light">MAKE THE WORLD CREATIVE</div>
+          <div class="h1 heading  px-5 text-light" id="example"></div>
           <p class=" text-light px-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsam!
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti corporis autem non ducimus obcaecati, ex velit. Dignissimos, ipsa. Accusamus nulla facere quae libero commodi, debitis earum nobis saepe eum vitae!
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, nostrum?
@@ -256,6 +256,14 @@
   <script>
     AOS.init();
   </script>
-
+    <script src="typer.js"></script>
+    <script>
+      $("#example").typer({
+  strings: [
+    "Welcome To Our Site",
+    "Hope You Will Like My Design"
+  ]
+});
+    </script> 
 </body>
 </html>
